@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    user-select: none;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+
+.nav-link:hover {
+    color: white !important;
+    background-color: black;
+}
+
+.navbar-nav {
+    margin-inline-start: auto;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-size: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* main section */
+
+.main {
+    height: 95vh;
+}
+
+.main .container {
+    padding-top: 0 !important;
+}
+
+.main .row {
+    padding-top: 0 !important;
+}
+
+.main.py-5 {
+    padding-top: 1rem !important;
+}
+
+.main .img img {
+    position: absolute;
+    top: 5rem;
+    height: 30rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem #00000021;
+}
+
+.main h3 {
+    font-size: 4rem;
+    font-weight: 700;
+    width: 47rem;
+}
+
+.main h3 small {
+    font-size: 3.5rem;
+    font-weight: lighter;
+}
+
+.main h6 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid rgb(233, 20, 109);
+    width: 67%;
+}
+
+.main .bt1 {
+    height: 55px;
+    width: 138px;
+    background-color: rgb(233, 20, 109);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+.main .bt1:hover {
+    background-color: rgb(199, 13, 91);
+    transition: 0.5s;
+}
+
+.main .bt2 {
+    height: 55px;
+    width: 138px;
+    background-color: transparent;
+    color: rgb(233, 20, 109);
+    outline: none;
+    border: 1px solid rgb(233, 20, 109);
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+.main .bt2:hover {
+    background-color: rgb(233, 20, 109);
+    color: white;
+    transition: 0.5s;
+}
+
+h1 {
+    font-size: 3rem !important;
+    font-weight: bold !important;
+}
+
+.about .row img {
+    height: 30rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem #00000021;
+}
+
+.progress {
+    background-color: rgb(227, 227, 227);
+    justify-content: flex-start !important;
+    border-radius: 50px !important;
+    align-items: center !important;
+    position: relative !important;
+    display: flex !important;
+    height: 30px !important;
+    box-shadow: 0 0 1rem white,
+    inset 0 0 1rem #bcbbbb,
+    inset 0 0 1rem #bcbbbb,
+    inset 0 0 1rem #bcbbbb,
+    inset 0 0 1rem #bcbbbb;
+    margin-top: 1rem;
+}
+
+.pro-value1 {
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+
+.progress p {
+    color: white;
+    padding: 7px 15px 7px 15px;
+    justify-content: space-between;
+}
+
+@keyframes load1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 95%;
+    }
+}
+
+.pro-value2 {
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+
+.pro-value3 {
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+
+.pro-value4 {
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+
+@keyframes load2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes load3 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes load4 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 30%;
+    }
+}
+
+.btn1 {
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+
+}
+
+.btn1:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    transition: 0.5s;
+    margin-right: 0.5rem;
+}
+
+.btn2 {
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    border-radius: 0.5rem;
+}
+
+.btn2:hover {
+    background-color: black;
+    border: none;
+    color: white;
+    transition: 0.5s;
+    margin-left: 0.5rem;
+}
+
+.card {
+    border: none !important;
+    outline: none !important;
+    box-shadow: 0 0 1rem #00000021;
+}
+
+.card-body {
+    border: none;
+}
+
+.card p {
+    color: gray;
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(247, 247, 247);
+    color: black;
+    padding: 12px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card:hover .circle {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+/* portfolio */
+
+.control ul {
+    gap: 0.5rem;
+    display: inline-flex;
+}
+
+.control ul li {
+    list-style: none;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border-radius: 0.5rem;
+}
+
+.item img {
+    border-radius: 0.5rem;
+}
+
+.item {
+    position: relative;
+}
+
+.item:is(:hover, :focus-visible) {
+    box-shadow: 0 0 1rem #00000021;
+    transition: 0.5s;
+}
+
+.item span {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.item:hover span {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.item::before {
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(238, 235, 230, 0.434);
+    opacity: 0;
+    position: absolute;
+}
+
+.item:hover::before {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.circle:hover {
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+
+.contact .btn3 {
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 0.5rem;
+    text-transform: capitalize;
+}
+
+.contact .btn3:is(:hover, :focus-visible) {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+footer {
+    background-color: rgb(34, 32, 32);
+    color: lightgray;
+}
+
+#msg {
+    color: #61b752;
+    margin-top: -20px;
+    display: block;
+}
+
+.blog .card img {
+    border-radius: 0.5rem 0.5rem 0 0;
+}
