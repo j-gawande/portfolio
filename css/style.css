@@ -390,3 +390,40 @@ footer {
 .blog .card img {
     border-radius: 0.5rem 0.5rem 0 0;
 }
+
+
+
+
+
+
+
+@media ((min-width:200px) and (max-width: 1000px)) {
+    .img {
+        display: none;
+    }
+
+    .main h3 {
+        width: fit-content;
+    }
+
+    .control + .row > .col-lg-4:nth-child(1) {
+        padding-bottom: 1rem;
+    }
+
+    .control + .row > .col-lg-4:nth-child(2) {
+        padding-bottom: 1rem;
+    }
+
+    .second {
+        padding-top: 1rem;
+    }
+
+    .control ul li {
+        font-size: 0.7rem;
+    }
+
+    .control ul {
+        width: fit-content;
+        padding: 0;
+    }
+}
